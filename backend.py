@@ -1,10 +1,16 @@
-from flask import Flask, escape, request, render_template
+from flask import Flask, escape, request, render_template, url_for
+import json
 
 app = Flask(__name__)
 
+with open('utils/panoptic_coco_categories_cat.json') as file:
+	data = json.load(file)
+
+
 @app.route('/')
-def home():
-    return render_template('explore.html')
+def explore():
+
+    return render_template('explore.html', data=data)
 
 
 

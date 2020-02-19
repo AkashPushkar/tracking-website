@@ -1,0 +1,987 @@
+{
+    "accessory": [
+        {
+            "color": "#FFB3F0",
+            "id": 27,
+            "isthing": 1,
+            "name": "backpack",
+            "supercategory": "accessory"
+        },
+        {
+            "color": "#007D5C",
+            "id": 28,
+            "isthing": 1,
+            "name": "umbrella",
+            "supercategory": "accessory"
+        },
+        {
+            "color": "#D10097",
+            "id": 31,
+            "isthing": 1,
+            "name": "handbag",
+            "supercategory": "accessory"
+        },
+        {
+            "color": "#BCD0B6",
+            "id": 32,
+            "isthing": 1,
+            "name": "tie",
+            "supercategory": "accessory"
+        },
+        {
+            "color": "#00DCB0",
+            "id": 33,
+            "isthing": 1,
+            "name": "suitcase",
+            "supercategory": "accessory"
+        }
+    ],
+    "animal": [
+        {
+            "color": "#A52A2A",
+            "id": 16,
+            "isthing": 1,
+            "name": "bird",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#FF4DFF",
+            "id": 17,
+            "isthing": 1,
+            "name": "cat",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#00E2FC",
+            "id": 18,
+            "isthing": 1,
+            "name": "dog",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#B6B6FF",
+            "id": 19,
+            "isthing": 1,
+            "name": "horse",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#005200",
+            "id": 20,
+            "isthing": 1,
+            "name": "sheep",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#78A69D",
+            "id": 21,
+            "isthing": 1,
+            "name": "cow",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#6E4C00",
+            "id": 22,
+            "isthing": 1,
+            "name": "elephant",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#AE39FF",
+            "id": 23,
+            "isthing": 1,
+            "name": "bear",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#C76400",
+            "id": 24,
+            "isthing": 1,
+            "name": "zebra",
+            "supercategory": "animal"
+        },
+        {
+            "color": "#480076",
+            "id": 25,
+            "isthing": 1,
+            "name": "giraffe",
+            "supercategory": "animal"
+        }
+    ],
+    "appliance": [
+        {
+            "color": "#4FD272",
+            "id": 78,
+            "isthing": 1,
+            "name": "microwave",
+            "supercategory": "appliance"
+        },
+        {
+            "color": "#B25A3E",
+            "id": 79,
+            "isthing": 1,
+            "name": "oven",
+            "supercategory": "appliance"
+        },
+        {
+            "color": "#41460F",
+            "id": 80,
+            "isthing": 1,
+            "name": "toaster",
+            "supercategory": "appliance"
+        },
+        {
+            "color": "#7FA773",
+            "id": 81,
+            "isthing": 1,
+            "name": "sink",
+            "supercategory": "appliance"
+        },
+        {
+            "color": "#3B696A",
+            "id": 82,
+            "isthing": 1,
+            "name": "refrigerator",
+            "supercategory": "appliance"
+        }
+    ],
+    "building": [
+        {
+            "color": "#966464",
+            "id": 95,
+            "isthing": 0,
+            "name": "bridge",
+            "supercategory": "building"
+        },
+        {
+            "color": "#464646",
+            "id": 128,
+            "isthing": 0,
+            "name": "house",
+            "supercategory": "building"
+        },
+        {
+            "color": "#5C5237",
+            "id": 151,
+            "isthing": 0,
+            "name": "roof",
+            "supercategory": "building"
+        },
+        {
+            "color": "#A9A483",
+            "id": 166,
+            "isthing": 0,
+            "name": "tent",
+            "supercategory": "building"
+        },
+        {
+            "color": "#747000",
+            "id": 197,
+            "isthing": 0,
+            "name": "building-other-merged",
+            "supercategory": "building"
+        }
+    ],
+    "ceiling": [
+        {
+            "color": "#928B8D",
+            "id": 186,
+            "isthing": 0,
+            "name": "ceiling-merged",
+            "supercategory": "ceiling"
+        }
+    ],
+    "electronic": [
+        {
+            "color": "#B78258",
+            "id": 72,
+            "isthing": 1,
+            "name": "tv",
+            "supercategory": "electronic"
+        },
+        {
+            "color": "#5F2000",
+            "id": 73,
+            "isthing": 1,
+            "name": "laptop",
+            "supercategory": "electronic"
+        },
+        {
+            "color": "#827287",
+            "id": 74,
+            "isthing": 1,
+            "name": "mouse",
+            "supercategory": "electronic"
+        },
+        {
+            "color": "#6E8185",
+            "id": 75,
+            "isthing": 1,
+            "name": "remote",
+            "supercategory": "electronic"
+        },
+        {
+            "color": "#A64A76",
+            "id": 76,
+            "isthing": 1,
+            "name": "keyboard",
+            "supercategory": "electronic"
+        },
+        {
+            "color": "#DB8EB9",
+            "id": 77,
+            "isthing": 1,
+            "name": "cell phone",
+            "supercategory": "electronic"
+        }
+    ],
+    "floor": [
+        {
+            "color": "#DA58B8",
+            "id": 118,
+            "isthing": 0,
+            "name": "floor-wood",
+            "supercategory": "floor"
+        },
+        {
+            "color": "#60246C",
+            "id": 190,
+            "isthing": 0,
+            "name": "floor-other-merged",
+            "supercategory": "floor"
+        }
+    ],
+    "food": [
+        {
+            "color": "#4A4169",
+            "id": 52,
+            "isthing": 1,
+            "name": "banana",
+            "supercategory": "food"
+        },
+        {
+            "color": "#A6C466",
+            "id": 53,
+            "isthing": 1,
+            "name": "apple",
+            "supercategory": "food"
+        },
+        {
+            "color": "#D0C3D2",
+            "id": 54,
+            "isthing": 1,
+            "name": "sandwich",
+            "supercategory": "food"
+        },
+        {
+            "color": "#FF6D41",
+            "id": 55,
+            "isthing": 1,
+            "name": "orange",
+            "supercategory": "food"
+        },
+        {
+            "color": "#008F95",
+            "id": 56,
+            "isthing": 1,
+            "name": "broccoli",
+            "supercategory": "food"
+        },
+        {
+            "color": "#B300C2",
+            "id": 57,
+            "isthing": 1,
+            "name": "carrot",
+            "supercategory": "food"
+        },
+        {
+            "color": "#D1636A",
+            "id": 58,
+            "isthing": 1,
+            "name": "hot dog",
+            "supercategory": "food"
+        },
+        {
+            "color": "#057900",
+            "id": 59,
+            "isthing": 1,
+            "name": "pizza",
+            "supercategory": "food"
+        },
+        {
+            "color": "#E3FFCD",
+            "id": 60,
+            "isthing": 1,
+            "name": "donut",
+            "supercategory": "food"
+        },
+        {
+            "color": "#93BAD0",
+            "id": 61,
+            "isthing": 1,
+            "name": "cake",
+            "supercategory": "food"
+        }
+    ],
+    "food-stuff": [
+        {
+            "color": "#D911FF",
+            "id": 122,
+            "isthing": 0,
+            "name": "fruit",
+            "supercategory": "food-stuff"
+        },
+        {
+            "color": "#98A140",
+            "id": 196,
+            "isthing": 0,
+            "name": "food-other-merged",
+            "supercategory": "food-stuff"
+        }
+    ],
+    "furniture": [
+        {
+            "color": "#994501",
+            "id": 62,
+            "isthing": 1,
+            "name": "chair",
+            "supercategory": "furniture"
+        },
+        {
+            "color": "#035FA1",
+            "id": 63,
+            "isthing": 1,
+            "name": "couch",
+            "supercategory": "furniture"
+        },
+        {
+            "color": "#A3FF00",
+            "id": 64,
+            "isthing": 1,
+            "name": "potted plant",
+            "supercategory": "furniture"
+        },
+        {
+            "color": "#7700AA",
+            "id": 65,
+            "isthing": 1,
+            "name": "bed",
+            "supercategory": "furniture"
+        },
+        {
+            "color": "#00B6C7",
+            "id": 67,
+            "isthing": 1,
+            "name": "dining table",
+            "supercategory": "furniture"
+        },
+        {
+            "color": "#00A578",
+            "id": 70,
+            "isthing": 1,
+            "name": "toilet",
+            "supercategory": "furniture"
+        }
+    ],
+    "furniture-stuff": [
+        {
+            "color": "#9270C6",
+            "id": 107,
+            "isthing": 0,
+            "name": "counter",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#5C8859",
+            "id": 112,
+            "isthing": 0,
+            "name": "door-stuff",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#FFE4FF",
+            "id": 130,
+            "isthing": 0,
+            "name": "light",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#9AD000",
+            "id": 133,
+            "isthing": 0,
+            "name": "mirror-stuff",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#FFA062",
+            "id": 156,
+            "isthing": 0,
+            "name": "shelf",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#68546D",
+            "id": 161,
+            "isthing": 0,
+            "name": "stairs",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#86C79C",
+            "id": 188,
+            "isthing": 0,
+            "name": "cabinet-merged",
+            "supercategory": "furniture-stuff"
+        },
+        {
+            "color": "#D1E28C",
+            "id": 189,
+            "isthing": 0,
+            "name": "table-merged",
+            "supercategory": "furniture-stuff"
+        }
+    ],
+    "ground": [
+        {
+            "color": "#7C4AB5",
+            "id": 125,
+            "isthing": 0,
+            "name": "gravel",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#FFB4C3",
+            "id": 144,
+            "isthing": 0,
+            "name": "platform",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#6A9AB0",
+            "id": 145,
+            "isthing": 0,
+            "name": "playingfield",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#E6968C",
+            "id": 147,
+            "isthing": 0,
+            "name": "railroad",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#804080",
+            "id": 149,
+            "isthing": 0,
+            "name": "road",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#FED47C",
+            "id": 154,
+            "isthing": 0,
+            "name": "sand",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#FFFFFF",
+            "id": 159,
+            "isthing": 0,
+            "name": "snow",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#606060",
+            "id": 191,
+            "isthing": 0,
+            "name": "pavement-merged",
+            "supercategory": "ground"
+        },
+        {
+            "color": "#D0E5E4",
+            "id": 194,
+            "isthing": 0,
+            "name": "dirt-merged",
+            "supercategory": "ground"
+        }
+    ],
+    "indoor": [
+        {
+            "color": "#8E6C2D",
+            "id": 84,
+            "isthing": 1,
+            "name": "book",
+            "supercategory": "indoor"
+        },
+        {
+            "color": "#C4AC00",
+            "id": 85,
+            "isthing": 1,
+            "name": "clock",
+            "supercategory": "indoor"
+        },
+        {
+            "color": "#5F3650",
+            "id": 86,
+            "isthing": 1,
+            "name": "vase",
+            "supercategory": "indoor"
+        },
+        {
+            "color": "#804CFF",
+            "id": 87,
+            "isthing": 1,
+            "name": "scissors",
+            "supercategory": "indoor"
+        },
+        {
+            "color": "#C93901",
+            "id": 88,
+            "isthing": 1,
+            "name": "teddy bear",
+            "supercategory": "indoor"
+        },
+        {
+            "color": "#F6007A",
+            "id": 89,
+            "isthing": 1,
+            "name": "hair drier",
+            "supercategory": "indoor"
+        },
+        {
+            "color": "#BFA2D0",
+            "id": 90,
+            "isthing": 1,
+            "name": "toothbrush",
+            "supercategory": "indoor"
+        }
+    ],
+    "kitchen": [
+        {
+            "color": "#C5E2FF",
+            "id": 44,
+            "isthing": 1,
+            "name": "bottle",
+            "supercategory": "kitchen"
+        },
+        {
+            "color": "#AB8601",
+            "id": 46,
+            "isthing": 1,
+            "name": "wine glass",
+            "supercategory": "kitchen"
+        },
+        {
+            "color": "#6D3F36",
+            "id": 47,
+            "isthing": 1,
+            "name": "cup",
+            "supercategory": "kitchen"
+        },
+        {
+            "color": "#CF8AFF",
+            "id": 48,
+            "isthing": 1,
+            "name": "fork",
+            "supercategory": "kitchen"
+        },
+        {
+            "color": "#97005F",
+            "id": 49,
+            "isthing": 1,
+            "name": "knife",
+            "supercategory": "kitchen"
+        },
+        {
+            "color": "#09503D",
+            "id": 50,
+            "isthing": 1,
+            "name": "spoon",
+            "supercategory": "kitchen"
+        },
+        {
+            "color": "#546933",
+            "id": 51,
+            "isthing": 1,
+            "name": "bowl",
+            "supercategory": "kitchen"
+        }
+    ],
+    "outdoor": [
+        {
+            "color": "#FAAA1E",
+            "id": 10,
+            "isthing": 1,
+            "name": "traffic light",
+            "supercategory": "outdoor"
+        },
+        {
+            "color": "#64AA1E",
+            "id": 11,
+            "isthing": 1,
+            "name": "fire hydrant",
+            "supercategory": "outdoor"
+        },
+        {
+            "color": "#DCDC00",
+            "id": 13,
+            "isthing": 1,
+            "name": "stop sign",
+            "supercategory": "outdoor"
+        },
+        {
+            "color": "#AF74AF",
+            "id": 14,
+            "isthing": 1,
+            "name": "parking meter",
+            "supercategory": "outdoor"
+        },
+        {
+            "color": "#FA001E",
+            "id": 15,
+            "isthing": 1,
+            "name": "bench",
+            "supercategory": "outdoor"
+        }
+    ],
+    "person": [
+        {
+            "color": "#DC143C",
+            "id": 1,
+            "isthing": 1,
+            "name": "person",
+            "supercategory": "person"
+        }
+    ],
+    "plant": [
+        {
+            "color": "#F18100",
+            "id": 119,
+            "isthing": 0,
+            "name": "flower",
+            "supercategory": "plant"
+        },
+        {
+            "color": "#6B8E23",
+            "id": 184,
+            "isthing": 0,
+            "name": "tree-merged",
+            "supercategory": "plant"
+        },
+        {
+            "color": "#98FB98",
+            "id": 193,
+            "isthing": 0,
+            "name": "grass-merged",
+            "supercategory": "plant"
+        }
+    ],
+    "raw-material": [
+        {
+            "color": "#A8ABAC",
+            "id": 100,
+            "isthing": 0,
+            "name": "cardboard",
+            "supercategory": "raw-material"
+        },
+        {
+            "color": "#CEBAAB",
+            "id": 195,
+            "isthing": 0,
+            "name": "paper-merged",
+            "supercategory": "raw-material"
+        }
+    ],
+    "sky": [
+        {
+            "color": "#4682B4",
+            "id": 187,
+            "isthing": 0,
+            "name": "sky-other-merged",
+            "supercategory": "sky"
+        }
+    ],
+    "solid": [
+        {
+            "color": "#40AA40",
+            "id": 192,
+            "isthing": 0,
+            "name": "mountain-merged",
+            "supercategory": "solid"
+        },
+        {
+            "color": "#00728F",
+            "id": 198,
+            "isthing": 0,
+            "name": "rock-merged",
+            "supercategory": "solid"
+        }
+    ],
+    "sports": [
+        {
+            "color": "#FF63A4",
+            "id": 34,
+            "isthing": 1,
+            "name": "frisbee",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#5C0049",
+            "id": 35,
+            "isthing": 1,
+            "name": "skis",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#8581FF",
+            "id": 36,
+            "isthing": 1,
+            "name": "snowboard",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#4EB4FF",
+            "id": 37,
+            "isthing": 1,
+            "name": "sports ball",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#00E400",
+            "id": 38,
+            "isthing": 1,
+            "name": "kite",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#AEFFF3",
+            "id": 39,
+            "isthing": 1,
+            "name": "baseball bat",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#2D59FF",
+            "id": 40,
+            "isthing": 1,
+            "name": "baseball glove",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#868667",
+            "id": 41,
+            "isthing": 1,
+            "name": "skateboard",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#9194AE",
+            "id": 42,
+            "isthing": 1,
+            "name": "surfboard",
+            "supercategory": "sports"
+        },
+        {
+            "color": "#FFD0BA",
+            "id": 43,
+            "isthing": 1,
+            "name": "tennis racket",
+            "supercategory": "sports"
+        }
+    ],
+    "structural": [
+        {
+            "color": "#C1005C",
+            "id": 138,
+            "isthing": 0,
+            "name": "net",
+            "supercategory": "structural"
+        },
+        {
+            "color": "#BE9999",
+            "id": 185,
+            "isthing": 0,
+            "name": "fence-merged",
+            "supercategory": "structural"
+        }
+    ],
+    "textile": [
+        {
+            "color": "#FFFF80",
+            "id": 92,
+            "isthing": 0,
+            "name": "banner",
+            "supercategory": "textile"
+        },
+        {
+            "color": "#93D3CB",
+            "id": 93,
+            "isthing": 0,
+            "name": "blanket",
+            "supercategory": "textile"
+        },
+        {
+            "color": "#D2AA64",
+            "id": 109,
+            "isthing": 0,
+            "name": "curtain",
+            "supercategory": "textile"
+        },
+        {
+            "color": "#4C5B71",
+            "id": 141,
+            "isthing": 0,
+            "name": "pillow",
+            "supercategory": "textile"
+        },
+        {
+            "color": "#E1C7FF",
+            "id": 168,
+            "isthing": 0,
+            "name": "towel",
+            "supercategory": "textile"
+        },
+        {
+            "color": "#FA8DFF",
+            "id": 200,
+            "isthing": 0,
+            "name": "rug-merged",
+            "supercategory": "textile"
+        }
+    ],
+    "vehicle": [
+        {
+            "color": "#770B20",
+            "id": 2,
+            "isthing": 1,
+            "name": "bicycle",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#00008E",
+            "id": 3,
+            "isthing": 1,
+            "name": "car",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#0000E6",
+            "id": 4,
+            "isthing": 1,
+            "name": "motorcycle",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#6A00E4",
+            "id": 5,
+            "isthing": 1,
+            "name": "airplane",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#003C64",
+            "id": 6,
+            "isthing": 1,
+            "name": "bus",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#005064",
+            "id": 7,
+            "isthing": 1,
+            "name": "train",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#000046",
+            "id": 8,
+            "isthing": 1,
+            "name": "truck",
+            "supercategory": "vehicle"
+        },
+        {
+            "color": "#0000C0",
+            "id": 9,
+            "isthing": 1,
+            "name": "boat",
+            "supercategory": "vehicle"
+        }
+    ],
+    "wall": [
+        {
+            "color": "#89364A",
+            "id": 171,
+            "isthing": 0,
+            "name": "wall-brick",
+            "supercategory": "wall"
+        },
+        {
+            "color": "#879EDF",
+            "id": 175,
+            "isthing": 0,
+            "name": "wall-stone",
+            "supercategory": "wall"
+        },
+        {
+            "color": "#07F6E7",
+            "id": 176,
+            "isthing": 0,
+            "name": "wall-tile",
+            "supercategory": "wall"
+        },
+        {
+            "color": "#6BFFC8",
+            "id": 177,
+            "isthing": 0,
+            "name": "wall-wood",
+            "supercategory": "wall"
+        },
+        {
+            "color": "#66669C",
+            "id": 199,
+            "isthing": 0,
+            "name": "wall-other-merged",
+            "supercategory": "wall"
+        }
+    ],
+    "water": [
+        {
+            "color": "#3C8FFF",
+            "id": 148,
+            "isthing": 0,
+            "name": "river",
+            "supercategory": "water"
+        },
+        {
+            "color": "#494DAE",
+            "id": 155,
+            "isthing": 0,
+            "name": "sea",
+            "supercategory": "water"
+        },
+        {
+            "color": "#3A2995",
+            "id": 178,
+            "isthing": 0,
+            "name": "water-other",
+            "supercategory": "water"
+        }
+    ],
+    "window": [
+        {
+            "color": "#B7798E",
+            "id": 180,
+            "isthing": 0,
+            "name": "window-blind",
+            "supercategory": "window"
+        },
+        {
+            "color": "#FF4961",
+            "id": 181,
+            "isthing": 0,
+            "name": "window-other",
+            "supercategory": "window"
+        }
+    ]
+}
