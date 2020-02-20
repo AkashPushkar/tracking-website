@@ -30,8 +30,10 @@ def fetchVideos():
 
 
 	thumbnailsPath = os.listdir('static/dataset/airplane')
-	
-	videoPath = os.listdir('static/dataset/airplane')
+
+	catid = [i['id'] for i in data['categories'] if i['name']=='chair']
+	videoid = [i['video_id'] for i in data['tracks'] if i['category_id']==catid[0]]
+	videoPath = [i['name'] for i in data['videos'] if i['id'] in videoid]
 
 	data = json.dumps({'thumbnailsPath': thumbnailsPath, 'videoPath': videoPath})
 

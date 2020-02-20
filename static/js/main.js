@@ -4,6 +4,8 @@ var index;
 var filterResult;
 
 var galleryCol=0;
+var numberCol = 4; //number of columns in the gallery
+
 
 let createVideoWindow = function(e){
 	// let videoLink = e.srcElement.src;
@@ -64,7 +66,7 @@ let addGalleryImages = function(){
 			a.addEventListener('click', createVideoWindow);
 			gallery[galleryCol].appendChild(a);
 
-			if (galleryCol<3){
+			if (galleryCol<numberCol){
 				galleryCol+=1;
 			} else{
 				galleryCol=0;
