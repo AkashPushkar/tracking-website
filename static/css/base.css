@@ -4,10 +4,17 @@
 	display: inline-block;
 	margin-right: 0.5em;
 	padding: 0.2em;
-	background-color: #0b7bff;
+	background-color: #c1873e;
 	color: white;
 }
 
 #fm-fl{
 	list-style-type: none;
+}
+
+#mw-ct .modal-body  video{
+	width: 100%; 
+	height: auto; 
+	margin:0 auto; 
+	frameborder:0;
 }

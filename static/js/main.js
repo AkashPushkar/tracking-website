@@ -1,17 +1,21 @@
 
-let filterCategories = function(){
+var index;
 
+var filterResult;
 
-	let substring = fm_tb.value.toUpperCase();
-	// for (let i=0; i<fm_cat.length; i++){
-	// 	text = fm_cat[i].value.toUpperCase();
-	// 	if (text.indexOf(substring) > -1){
-	// 		fm_cat[i]
-	// 	}
-	// }
-	// fm_cat = 
-};
+var galleryCol=0;
 
+let createVideoWindow = function(e){
+	// let videoLink = e.srcElement.src;
+	// videoLink = videoLink.replace("svg","mp4");
+	
+	let videoLink = '/static/dataset/video/2.mp4'
+
+	
+	mw_src.src = videoLink;
+	mw_vd.load();
+
+}
 
 let removeFilter = function(e){
 	e.srcElement.parentElement.remove();
@@ -46,6 +50,60 @@ let addFilter = function(e){
 };
 
 
+let addGalleryImages = function(){
+	for (let i=index; i<filterResult['thumbnailsPath'].length && i<index+20; i++){
+			let img = new Image();
+			// let btn = document.createElement('button');
+			let a = document.createElement('a');
+			img.src = '/static/dataset/airplane/'+ filterResult['thumbnailsPath'][i];
+			a.appendChild(img);
+			// a.href = '/static/dataset/airplane/' + data['videoPath'][i];
+			// a.type = "button";
+			a.setAttribute("data-toggle","modal");
+			a.setAttribute("data-target", "#mw");
+			a.addEventListener('click', createVideoWindow);
+			gallery[galleryCol].appendChild(a);
+
+			if (galleryCol<3){
+				galleryCol+=1;
+			} else{
+				galleryCol=0;
+			}
+		}
+
+	index+=20;
+}
+
+let fetchVideos = function(e){
+	index = 0;
+
+	serverURL = '/fetchVideos/';
+
+	let filters = [];
+	for (let i=0; i<fm_fl.childElementCount; i++){
+		filters.push(fm_fl.children[i].firstChild.data);
+	}
+	
+	data = JSON.stringify({
+		'index':index,
+		'data':filters
+	});
+
+	fetch(serverURL, {
+		method: "POST",
+		header: {
+			'Content-Type': 'application/json',
+		},
+		body: data
+	}).then(function(response){
+		return response.json();
+	}).then(function(data){
+		filterResult = data;
+		addGalleryImages();
+	})
+};
+
+
 
 // self-executing function
 (function(){
@@ -62,4 +120,12 @@ let addFilter = function(e){
 
 // Event listeners
 
-fm_tb.addEventListener('keyup', filterCategories);
+fm_search.addEventListener('click', fetchVideos);
+
+
+window.addEventListener('scroll', function(e){
+	if(window.scrollY + window.innerWidth >= document.body.scrollHeight){
+		// console.log(window.scrollY, window.outerWidth, document.body.scrollHeight)
+		addGalleryImages();
+	}
+});
