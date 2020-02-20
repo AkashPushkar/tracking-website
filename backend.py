@@ -1,45 +1,50 @@
 from flask import Flask, escape, request, render_template, url_for
 import json
 
-import utils.tao as tao
+# import utils.tao as tao
 import pdb 
 import os
 
 app = Flask(__name__)
 
-with open('utils/panoptic_coco_categories_cat.json') as file:
-	data = json.load(file)
+with open('utils/tao_categories.json') as file:
+	taoCat = json.load(file)
+
+# with open('utils/panoptic_coco_categories_cat.json') as file:
+# 	taoCat = json.load(file)
 
 
-tao = tao.Tao('utils/annotations_lvis_categories_only.json')
+
+# tao = tao.Tao('utils/annotations_lvis_categories_only.json')
+
+with open('utils/annotations_lvis_categories_only.json') as file:
+	tao = json.load(file)
+
 
 @app.route('/')
 def explore():
-
-    return render_template('explore.html', data=data)
+    return render_template('explore.html', data=taoCat)
 
 
 @app.route('/fetchVideos/', methods=['POST'])
 def fetchVideos():
 
-	# pdb.set_trace()
 	data = request.get_json(force=True)
+	filters = data['filters']
 
-	index = data['index']
-	filters = data['data']
+	response = []
 
+	for filter in filters:
+		catId = [i['id'] for i in tao['categories'] if i['name']==filter]
+		videoId = [i['video_id'] for i in tao['tracks'] if i['category_id']==catId[0]]
+		videoName = [i['name'] for i in tao['videos'] if i['id'] in videoId]
+		response = list(set(response) | set(videoName))
+	# print(videoName)
+	response = json.dumps({'videoName': response})
 
-	thumbnailsPath = os.listdir('static/dataset/airplane')
-
-	catid = [i['id'] for i in data['categories'] if i['name']=='chair']
-	videoid = [i['video_id'] for i in data['tracks'] if i['category_id']==catid[0]]
-	videoPath = [i['name'] for i in data['videos'] if i['id'] in videoid]
-
-	data = json.dumps({'thumbnailsPath': thumbnailsPath, 'videoPath': videoPath})
-
-	return data
+	return response
 
 
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(host="0.0.0.0", port="23012", debug=True)
